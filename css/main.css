@@ -3413,3 +3413,10 @@ html.no-csstransitions .home-content__main {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* iframe media query */
+@media only screen and (max-width: 600px) {
+  iframe {
+    inline-size: fit-content;
+  }
+}
